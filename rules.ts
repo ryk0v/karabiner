@@ -73,6 +73,10 @@ const rules: KarabinerRules[] = [
       g: open("https://github.com/pulls/review-requested"),
       x: open("https://x.com"),
       r: open("https://reddit.com"),
+      j: open(
+        "https://bartrack.atlassian.net/jira/software/c/projects/CWA/boards/74"
+      ),
+      m: open("https://jira.mobidev.biz/secure/Tempo.jspa#/my-work/timesheet"),
       n: open("https://netflix.com"),
     },
     o: {
