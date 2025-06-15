@@ -67,6 +67,7 @@ const rules: KarabinerRules[] = [
     e: app("Obsidian"),
     f: app("Finder"),
     g: open("https://github.com/pulls/review-requested"),
+    m: open("https://meet.google.com/landing"),
     b: {
       t: open("https://www.twitch.tv"),
       y: open("https://youtube.com"),
@@ -84,7 +85,8 @@ const rules: KarabinerRules[] = [
       s: app("Slack"),
       m: app("Mail"),
       p: app("Spotify"),
-      w: open("WhatsApp"),
+      w: app("WhatsApp"),
+      comma: app("System Settings"),
     },
     w: {
       semicolon: {
