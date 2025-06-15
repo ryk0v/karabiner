@@ -3,7 +3,6 @@ import { KarabinerRules } from "./types";
 import { createHyperSubLayers, app, open, window, shell } from "./utils";
 
 const rules: KarabinerRules[] = [
-  // Define the Hyper key itself
   {
     description: "Hyper Key (⌃⌥⇧⌘)",
     manipulators: [
@@ -65,39 +64,24 @@ const rules: KarabinerRules[] = [
     4: app("Telegram"),
     t: app("iTerm"),
     q: app("TickTick"),
+    e: app("Obsidian"),
     f: app("Finder"),
-    // b = "B"rowse
+    g: open("https://github.com/pulls/review-requested"),
     b: {
-      t: open("https://twitter.com"),
+      t: open("https://www.twitch.tv"),
+      y: open("https://youtube.com"),
+      g: open("https://github.com/pulls/review-requested"),
       x: open("https://x.com"),
       r: open("https://reddit.com"),
+      n: open("https://netflix.com"),
     },
-    // o = "Open" applications
     o: {
       1: app("1Password"),
       s: app("Slack"),
       m: app("Mail"),
-      // "M"arkdown (Reflect.app),
       p: app("Spotify"),
       w: open("WhatsApp"),
     },
-
-    // TODO: This doesn't quite work yet.
-    // l = "Layouts" via Raycast's custom window management
-    // l: {
-    //   // Coding layout
-    //   c: shell`
-    //     open -a "Visual Studio Code.app"
-    //     sleep 0.2
-    //     open -g "raycast://customWindowManagementCommand?position=topLeft&relativeWidth=0.5"
-
-    //     open -a "Terminal.app"
-    //     sleep 0.2
-    //     open -g "raycast://customWindowManagementCommand?position=topRight&relativeWidth=0.5"
-    //   `,
-    // },
-
-    // w = "Window"
     w: {
       semicolon: {
         description: "Window: Hide",
@@ -162,8 +146,6 @@ const rules: KarabinerRules[] = [
         ],
       },
     },
-
-    // s = "System"
     s: {
       u: {
         to: [
