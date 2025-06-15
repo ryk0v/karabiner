@@ -56,48 +56,30 @@ const rules: KarabinerRules[] = [
     ],
   },
   ...createHyperSubLayers({
-    spacebar: open(
-      "raycast://extensions/stellate/mxstbr-commands/create-notion-todo"
-    ),
+    // spacebar: open(
+    //   "raycast://extensions/appest/ticktick/quickAdd?arguments=%7B%22description%22%3A%22%22%2C%22text%22%3A%22%22%7D"
+    // ),
+    1: app("Google Chrome"),
+    2: app("Visual Studio Code"),
+    3: app("Google Chat"),
+    4: app("Telegram"),
+    t: app("iTerm"),
+    q: app("TickTick"),
+    f: app("Finder"),
     // b = "B"rowse
     b: {
       t: open("https://twitter.com"),
-      // Quarterly "P"lan
-      p: open("https://mxstbr.com/cal"),
-      y: open("https://news.ycombinator.com"),
-      f: open("https://facebook.com"),
+      x: open("https://x.com"),
       r: open("https://reddit.com"),
-      h: open("https://hashnode.com/draft"),
     },
     // o = "Open" applications
     o: {
       1: app("1Password"),
-      g: app("Google Chrome"),
-      c: app("Notion Calendar"),
-      v: app("Zed"),
-      d: app("Discord"),
       s: app("Slack"),
-      e: app("Superhuman"),
-      n: app("Notion"),
-      t: app("Terminal"),
-      // Open todo list managed via *H*ypersonic
-      h: open(
-        "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
-      ),
-      z: app("zoom.us"),
-      // "M"arkdown (Reflect.app)
-      m: app("Reflect"),
-      r: app("Reflect"),
-      f: app("Finder"),
-      // "i"Message
-      i: app("Texts"),
+      m: app("Mail"),
+      // "M"arkdown (Reflect.app),
       p: app("Spotify"),
-      a: app("iA Presenter"),
-      // "W"hatsApp has been replaced by Texts
-      w: open("Texts"),
-      l: open(
-        "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
-      ),
+      w: open("WhatsApp"),
     },
 
     // TODO: This doesn't quite work yet.
@@ -126,8 +108,8 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      y: window("previous-display"),
-      o: window("next-display"),
+      // y: window("previous-display"),
+      // o: window("next-display"),
       k: window("top-half"),
       j: window("bottom-half"),
       h: window("left-half"),
@@ -233,14 +215,9 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      e: open(
-        `raycast://extensions/thomas/elgato-key-light/toggle?launchType=background`
-      ),
-      // "D"o not disturb toggle
       d: open(
         `raycast://extensions/yakitrak/do-not-disturb/toggle?launchType=background`
       ),
-      // "T"heme
       t: open(`raycast://extensions/raycast/system/toggle-system-appearance`),
       c: open("raycast://extensions/raycast/system/open-camera"),
       // 'v'oice
