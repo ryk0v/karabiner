@@ -59,13 +59,17 @@ const rules: KarabinerRules[] = [
     //   "raycast://extensions/appest/ticktick/quickAdd?arguments=%7B%22description%22%3A%22%22%2C%22text%22%3A%22%22%7D"
     // ),
     1: app("Google Chrome"),
+    // 1: app("Zen"),
     2: app("Visual Studio Code"),
     3: app("Google Chat"),
-    4: app("Telegram"),
+    4: app("Slack"),
+    5: app("Telegram"),
+    6: app("Spotify"),
     t: app("iTerm"),
     q: app("TickTick"),
     e: app("Obsidian"),
     f: app("Finder"),
+    d: app("DBeaver"),
     g: open("https://github.com/pulls/review-requested"),
     m: open("https://meet.google.com/landing"),
     b: {
