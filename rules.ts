@@ -1,6 +1,6 @@
 import fs from "fs";
 import { KarabinerRules } from "./types";
-import { createHyperSubLayers, app, open, window, shell } from "./utils";
+import { createHyperSubLayers, app, open, window } from "./utils";
 
 const rules: KarabinerRules[] = [
   {
@@ -70,6 +70,7 @@ const rules: KarabinerRules[] = [
     e: app("Obsidian"),
     f: app("Finder"),
     d: app("DBeaver"),
+    c: app("Calendar"),
     g: open("https://github.com/pulls/review-requested"),
     m: app("Mail"),
     b: {
@@ -258,18 +259,18 @@ const rules: KarabinerRules[] = [
       },
     },
 
-    // c = Musi*c* which isn't "m" because we want it to be on the left hand
-    c: {
-      p: {
-        to: [{ key_code: "play_or_pause" }],
-      },
-      n: {
-        to: [{ key_code: "fastforward" }],
-      },
-      b: {
-        to: [{ key_code: "rewind" }],
-      },
-    },
+    // // c = Musi*c* which isn't "m" because we want it to be on the left hand
+    // c: {
+    //   p: {
+    //     to: [{ key_code: "play_or_pause" }],
+    //   },
+    //   n: {
+    //     to: [{ key_code: "fastforward" }],
+    //   },
+    //   b: {
+    //     to: [{ key_code: "rewind" }],
+    //   },
+    // },
 
     // r = "Raycast"
     r: {
