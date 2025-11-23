@@ -64,7 +64,7 @@ const rules: KarabinerRules[] = [
     3: app("Google Chat"),
     4: app("Slack"),
     5: app("Telegram"),
-    6: app("Spotify"),
+    p: app("Spotify"),
     t: app("iTerm"),
     q: app("TickTick"),
     e: app("Obsidian"),

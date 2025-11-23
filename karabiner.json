@@ -97,7 +97,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -226,7 +226,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -355,7 +355,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -484,7 +484,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -613,7 +613,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -691,7 +691,7 @@
             ]
           },
           {
-            "description": "Hyper Key + 6",
+            "description": "Hyper Key + p",
             "manipulators": [
               {
                 "to": [
@@ -702,7 +702,7 @@
                 "description": "Open -a 'Spotify.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "6",
+                  "key_code": "p",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -742,7 +742,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -871,7 +871,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -1000,7 +1000,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -1129,7 +1129,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -1258,7 +1258,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -1387,7 +1387,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -1516,7 +1516,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -1645,7 +1645,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -1774,7 +1774,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -1909,7 +1909,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -2236,7 +2236,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -2515,7 +2515,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -2933,7 +2933,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -3331,7 +3331,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
@@ -3683,7 +3683,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_6",
+                    "name": "hyper_sublayer_p",
                     "value": 0
                   },
                   {
