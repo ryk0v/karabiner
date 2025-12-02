@@ -69,7 +69,7 @@ const rules: KarabinerRules[] = [
     q: app("TickTick"),
     e: app("Obsidian"),
     f: app("Finder"),
-    d: app("DBeaver"),
+    d: app("DataGrip"),
     c: app("Calendar"),
     g: open("https://github.com/pulls/review-requested"),
     m: app("Mail"),

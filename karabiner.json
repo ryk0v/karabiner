@@ -1341,10 +1341,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'DBeaver.app'"
+                    "shell_command": "open -a 'DataGrip.app'"
                   }
                 ],
-                "description": "Open -a 'DBeaver.app'",
+                "description": "Open -a 'DataGrip.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "d",
