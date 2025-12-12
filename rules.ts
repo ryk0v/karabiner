@@ -89,7 +89,7 @@ const rules: KarabinerRules[] = [
       1: app("1Password"),
       s: app("Slack"),
       m: app("Mail"),
-      p: app("Spotify"),
+      p: app("Postman"),
       w: app("WhatsApp"),
       comma: app("System Settings"),
     },
