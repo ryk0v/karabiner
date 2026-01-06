@@ -71,7 +71,7 @@ const rules: KarabinerRules[] = [
     f: app("Finder"),
     d: app("DataGrip"),
     c: app("Calendar"),
-    g: open("https://github.com/pulls/review-requested"),
+    g: open("raycast://extensions/gebeto/translate/translate"),
     m: app("Mail"),
     b: {
       t: open("https://www.twitch.tv"),
