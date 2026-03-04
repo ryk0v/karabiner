@@ -72,6 +72,7 @@ const rules: KarabinerRules[] = [
     d: app("DataGrip"),
     c: app("Calendar"),
     g: open("raycast://extensions/gebeto/translate/translate"),
+    n: app("NetNewsWire"),
     m: app("Mail"),
     b: {
       t: open("https://www.twitch.tv"),
