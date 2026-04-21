@@ -59,19 +59,17 @@ const rules: KarabinerRules[] = [
     //   "raycast://extensions/appest/ticktick/quickAdd?arguments=%7B%22description%22%3A%22%22%2C%22text%22%3A%22%22%7D"
     // ),
     1: app("Google Chrome"),
-    // 1: app("Zen"),
     2: app("WebStorm"),
-    3: app("Google Chat"),
-    4: app("Slack"),
-    5: app("Telegram"),
+    3: app("iTerm"),
+    l: app("Slack"),
     p: app("Spotify"),
-    t: app("iTerm"),
+    t: app("Telegram"),
     q: app("TickTick"),
     e: app("Obsidian"),
     f: app("Finder"),
     d: app("DataGrip"),
     c: app("Calendar"),
-    g: open("raycast://extensions/gebeto/translate/translate"),
+    g: app("Google Chat"),
     n: app("NetNewsWire"),
     m: app("Mail"),
     b: {
@@ -297,30 +295,30 @@ const rules: KarabinerRules[] = [
       ),
     },
   }),
-  {
-    description: "Change Backspace to Spacebar when Minecraft is focused",
-    manipulators: [
-      {
-        type: "basic",
-        from: {
-          key_code: "delete_or_backspace",
-        },
-        to: [
-          {
-            key_code: "spacebar",
-          },
-        ],
-        conditions: [
-          {
-            type: "frontmost_application_if",
-            file_paths: [
-              "^/Users/mxstbr/Library/Application Support/minecraft/runtime/java-runtime-gamma/mac-os-arm64/java-runtime-gamma/jre.bundle/Contents/Home/bin/java$",
-            ],
-          },
-        ],
-      },
-    ],
-  },
+  // {
+  //   description: "Change Backspace to Spacebar when Minecraft is focused",
+  //   manipulators: [
+  //     {
+  //       type: "basic",
+  //       from: {
+  //         key_code: "delete_or_backspace",
+  //       },
+  //       to: [
+  //         {
+  //           key_code: "spacebar",
+  //         },
+  //       ],
+  //       conditions: [
+  //         {
+  //           type: "frontmost_application_if",
+  //           file_paths: [
+  //             "^/Users/mxstbr/Library/Application Support/minecraft/runtime/java-runtime-gamma/mac-os-arm64/java-runtime-gamma/jre.bundle/Contents/Home/bin/java$",
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
 
 fs.writeFileSync(

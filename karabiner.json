@@ -87,12 +87,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -221,12 +216,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -319,10 +309,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Google Chat.app'"
+                    "shell_command": "open -a 'iTerm.app'"
                   }
                 ],
-                "description": "Open -a 'Google Chat.app'",
+                "description": "Open -a 'iTerm.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "3",
@@ -355,12 +345,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -448,7 +433,7 @@
             ]
           },
           {
-            "description": "Hyper Key + 4",
+            "description": "Hyper Key + l",
             "manipulators": [
               {
                 "to": [
@@ -459,7 +444,7 @@
                 "description": "Open -a 'Slack.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "4",
+                  "key_code": "l",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -489,146 +474,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_p",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_t",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_q",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_e",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_f",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_d",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_c",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_g",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_n",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_m",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_b",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_o",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_w",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_s",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_v",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_r",
-                    "value": 0
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "description": "Hyper Key + 5",
-            "manipulators": [
-              {
-                "to": [
-                  {
-                    "shell_command": "open -a 'Telegram.app'"
-                  }
-                ],
-                "description": "Open -a 'Telegram.app'",
-                "type": "basic",
-                "from": {
-                  "key_code": "5",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper",
-                    "value": 1
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_1",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_2",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_3",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -757,12 +603,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -855,10 +696,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'iTerm.app'"
+                    "shell_command": "open -a 'Telegram.app'"
                   }
                 ],
-                "description": "Open -a 'iTerm.app'",
+                "description": "Open -a 'Telegram.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "t",
@@ -891,12 +732,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -1025,12 +861,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -1159,12 +990,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -1293,12 +1119,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -1427,12 +1248,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -1561,12 +1377,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -1659,10 +1470,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/gebeto/translate/translate"
+                    "shell_command": "open -a 'Google Chat.app'"
                   }
                 ],
-                "description": "Open raycast://extensions/gebeto/translate/translate",
+                "description": "Open -a 'Google Chat.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "g",
@@ -1695,12 +1506,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -1829,12 +1635,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -1963,12 +1764,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -2103,12 +1899,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -2435,12 +2226,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -2719,12 +2505,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -3142,12 +2923,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -3545,12 +3321,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -3902,12 +3673,7 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_4",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_5",
+                    "name": "hyper_sublayer_l",
                     "value": 0
                   },
                   {
@@ -4229,30 +3995,6 @@
                     "type": "variable_if",
                     "name": "hyper_sublayer_r",
                     "value": 1
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "description": "Change Backspace to Spacebar when Minecraft is focused",
-            "manipulators": [
-              {
-                "type": "basic",
-                "from": {
-                  "key_code": "delete_or_backspace"
-                },
-                "to": [
-                  {
-                    "key_code": "spacebar"
-                  }
-                ],
-                "conditions": [
-                  {
-                    "type": "frontmost_application_if",
-                    "file_paths": [
-                      "^/Users/mxstbr/Library/Application Support/minecraft/runtime/java-runtime-gamma/mac-os-arm64/java-runtime-gamma/jre.bundle/Contents/Home/bin/java$"
-                    ]
                   }
                 ]
               }
