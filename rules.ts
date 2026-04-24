@@ -61,7 +61,7 @@ const rules: KarabinerRules[] = [
     1: app("Google Chrome"),
     2: app("WebStorm"),
     3: app("iTerm"),
-    l: app("Slack"),
+    s: app("Slack"),
     p: app("Spotify"),
     t: app("Telegram"),
     q: app("TickTick"),
@@ -156,72 +156,72 @@ const rules: KarabinerRules[] = [
         ],
       },
     },
-    s: {
-      u: {
-        to: [
-          {
-            key_code: "volume_increment",
-          },
-        ],
-      },
-      j: {
-        to: [
-          {
-            key_code: "volume_decrement",
-          },
-        ],
-      },
-      i: {
-        to: [
-          {
-            key_code: "display_brightness_increment",
-          },
-        ],
-      },
-      k: {
-        to: [
-          {
-            key_code: "display_brightness_decrement",
-          },
-        ],
-      },
-      l: {
-        to: [
-          {
-            key_code: "q",
-            modifiers: ["right_control", "right_command"],
-          },
-        ],
-      },
-      p: {
-        to: [
-          {
-            key_code: "play_or_pause",
-          },
-        ],
-      },
-      semicolon: {
-        to: [
-          {
-            key_code: "fastforward",
-          },
-        ],
-      },
-      d: open(
-        `raycast://extensions/yakitrak/do-not-disturb/toggle?launchType=background`
-      ),
-      t: open(`raycast://extensions/raycast/system/toggle-system-appearance`),
-      c: open("raycast://extensions/raycast/system/open-camera"),
-      // 'v'oice
-      v: {
-        to: [
-          {
-            key_code: "spacebar",
-            modifiers: ["left_option"],
-          },
-        ],
-      },
-    },
+    // s: {
+    //   u: {
+    //     to: [
+    //       {
+    //         key_code: "volume_increment",
+    //       },
+    //     ],
+    //   },
+    //   j: {
+    //     to: [
+    //       {
+    //         key_code: "volume_decrement",
+    //       },
+    //     ],
+    //   },
+    //   i: {
+    //     to: [
+    //       {
+    //         key_code: "display_brightness_increment",
+    //       },
+    //     ],
+    //   },
+    //   k: {
+    //     to: [
+    //       {
+    //         key_code: "display_brightness_decrement",
+    //       },
+    //     ],
+    //   },
+    //   l: {
+    //     to: [
+    //       {
+    //         key_code: "q",
+    //         modifiers: ["right_control", "right_command"],
+    //       },
+    //     ],
+    //   },
+    //   p: {
+    //     to: [
+    //       {
+    //         key_code: "play_or_pause",
+    //       },
+    //     ],
+    //   },
+    //   semicolon: {
+    //     to: [
+    //       {
+    //         key_code: "fastforward",
+    //       },
+    //     ],
+    //   },
+    //   d: open(
+    //     `raycast://extensions/yakitrak/do-not-disturb/toggle?launchType=background`
+    //   ),
+    //   t: open(`raycast://extensions/raycast/system/toggle-system-appearance`),
+    //   c: open("raycast://extensions/raycast/system/open-camera"),
+    //   // 'v'oice
+    //   v: {
+    //     to: [
+    //       {
+    //         key_code: "spacebar",
+    //         modifiers: ["left_option"],
+    //       },
+    //     ],
+    //   },
+    // },
 
     // v = "moVe" which isn't "m" because we want it to be on the left hand
     // so that hjkl work like they do in vim
