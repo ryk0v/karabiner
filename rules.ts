@@ -89,6 +89,8 @@ const rules: KarabinerRules[] = [
       s: app("Stocks"),
       m: app("Mail"),
       p: app("Postman"),
+      d: app("Docker Desktop"),
+      t: app("Terminal"),
       w: app("WhatsApp"),
       comma: app("System Settings"),
     },
