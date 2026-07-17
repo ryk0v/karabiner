@@ -59,8 +59,8 @@ const rules: KarabinerRules[] = [
     //   "raycast://extensions/appest/ticktick/quickAdd?arguments=%7B%22description%22%3A%22%22%2C%22text%22%3A%22%22%7D"
     // ),
     1: app("Google Chrome"),
-    2: app("WebStorm"),
-    3: app("Ghostty"),
+    2: app("Ghostty"),
+    4: app("WebStorm"),
     s: app("Slack"),
     p: app("Spotify"),
     t: app("Telegram"),
@@ -351,6 +351,10 @@ fs.writeFileSync(
                 },
                 {
                   "from": { "key_code": "left_option" },
+                  "to": [{ "key_code": "left_command" }]
+                },
+                {
+                  "from": { "key_code": "right_option" },
                   "to": [{ "key_code": "left_command" }]
                 }
               ]
