@@ -58,18 +58,19 @@ const rules: KarabinerRules[] = [
     // spacebar: open(
     //   "raycast://extensions/appest/ticktick/quickAdd?arguments=%7B%22description%22%3A%22%22%2C%22text%22%3A%22%22%7D"
     // ),
-    1: app("Google Chrome"),
+    1: app("Arc"),
     2: app("Ghostty"),
     4: app("WebStorm"),
     s: app("Slack"),
     p: app("Spotify"),
-    t: app("Telegram"),
     q: app("TickTick"),
+    t: app("TickTick"),
     e: app("Obsidian"),
     f: app("Finder"),
     d: app("DataGrip"),
     c: app("Calendar"),
     g: app("Google Chat"),
+    // g: open("raycast-x://extensions/raycast/quicklinks/google-chat"),
     n: app("NetNewsWire"),
     m: app("Mail"),
     b: {
@@ -89,6 +90,7 @@ const rules: KarabinerRules[] = [
       s: app("Stocks"),
       m: app("Mail"),
       p: app("Postman"),
+      c: app("Claude"),
       d: app("Docker Desktop"),
       t: app("Terminal"),
       w: app("WhatsApp"),
@@ -336,29 +338,29 @@ fs.writeFileSync(
           complex_modifications: {
             rules,
           },
-          "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" },
-          "devices": [
+          virtual_hid_keyboard: { keyboard_type_v2: "ansi" },
+          devices: [
             {
-              "identifiers": {
-                "is_keyboard": true,
-                "product_id": 5122,
-                "vendor_id": 12771
+              identifiers: {
+                is_keyboard: true,
+                product_id: 5122,
+                vendor_id: 12771,
               },
-              "simple_modifications": [
+              simple_modifications: [
                 {
-                  "from": { "key_code": "left_command" },
-                  "to": [{ "key_code": "left_option" }]
+                  from: { key_code: "left_command" },
+                  to: [{ key_code: "left_option" }],
                 },
                 {
-                  "from": { "key_code": "left_option" },
-                  "to": [{ "key_code": "left_command" }]
+                  from: { key_code: "left_option" },
+                  to: [{ key_code: "left_command" }],
                 },
                 {
-                  "from": { "key_code": "right_option" },
-                  "to": [{ "key_code": "left_command" }]
-                }
-              ]
-            }
+                  from: { key_code: "right_option" },
+                  to: [{ key_code: "left_command" }],
+                },
+              ],
+            },
           ],
         },
       ],
